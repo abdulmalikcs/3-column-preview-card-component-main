@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #F2F2F2;
+
+}
+
+span {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 830px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 277px 277px 277px 
+}
+
+.sedan {
+    width: 100%;
+    height: 100%;
+    background-color: #E28525;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+}
+
+.suvs{
+    width: 100%;
+    height: 100%;
+    background-color: #016972;
+
+}
+
+.luxury{
+    width: 100%;
+    height: 100%;
+    background-color: #00403F;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+}
+
+.container-sedan {
+    margin: 40px;
+    margin-top: 40px;
+}
+
+.container-sedan img {
+    margin-bottom: 20px;
+}
+
+.container-sedan p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container-sedan span {
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 14px;
+}
+
+.container-sedan .learn {
+    color: #E28525;
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-top: 115px;
+    cursor: pointer;
+}
+
+.container-sedan .learn:hover {
+    background-color: #E28525 ;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.container-suvs {
+    margin: 40px;
+    margin-top: 40px;
+}
+
+.container-suvs img {
+    margin-bottom: 20px;
+}
+
+.container-suvs p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container-suvs span {
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 14px;
+}
+
+.container-suvs .learn {
+    color: #016972;
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-top: 115px;
+    cursor: pointer;
+
+}
+
+.container-suvs .learn:hover {
+    background-color: #016972 ;
+    border: 1px solid white;
+    color: white;
+
+}
+
+
+.container-luxury {
+    margin: 40px;
+    margin-top: 40px;
+}
+
+.container-luxury img {
+    margin-bottom: 20px;
+}
+
+.container-luxury p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container-luxury span {
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 14px;
+}
+
+.container-luxury .learn {
+    color: #00403F;
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-top: 115px;
+    cursor: pointer;
+
+}
+
+.container-luxury .learn:hover {
+    background-color: #00403F ;
+    border: 1px solid white;
+    color: white;
+
+}
+
+
+
+@media (max-width:850px) {
+    .container {
+        height: 100%;
+        margin-top: 60px;
+    }
+    .content {
+        grid-template-columns: auto ;
+        width: 90%;
+    }
+    .sedan {
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        -ms-border-radius: 10px 10px 0 0;
+        -o-border-radius: 10px 10px 0 0;
+    }
+    .luxury {
+        border-radius: 0 0 10px 10px;
+        -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        -ms-border-radius: 0 0 10px 10px;
+        -o-border-radius: 0 0 10px 10px;
+    }
+}
+
